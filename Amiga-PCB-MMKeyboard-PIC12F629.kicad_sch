@@ -1,1585 +1,4259 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 0d18a371-b76e-400e-8049-12c2c408a5eb)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Connector:Conn_01x08_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x08_Socket" (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x08, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x08_Socket_1_1"
-        (arc (start 0 -9.652) (mid -0.5058 -10.16) (end 0 -10.668)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -7.112) (mid -0.5058 -7.62) (end 0 -8.128)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -4.572) (mid -0.5058 -5.08) (end 0 -5.588)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -2.032) (mid -0.5058 -2.54) (end 0 -3.048)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -10.16)
-            (xy -0.508 -10.16)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -7.62)
-            (xy -0.508 -7.62)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -5.08)
-            (xy -0.508 -5.08)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -2.54)
-            (xy -0.508 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy -0.508 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 2.54)
-            (xy -0.508 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 5.08)
-            (xy -0.508 5.08)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 7.62)
-            (xy -0.508 7.62)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 0.508) (mid -0.5058 0) (end 0 -0.508)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 3.048) (mid -0.5058 2.54) (end 0 2.032)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 5.588) (mid -0.5058 5.08) (end 0 4.572)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 8.128) (mid -0.5058 7.62) (end 0 7.112)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 7.62 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -7.62 0) (length 3.81)
-          (name "Pin_7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -10.16 0) (length 3.81)
-          (name "Pin_8" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:Mini-DIN-6" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Mini-DIN-6" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Mini-DIN" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "6-pin Mini-DIN connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MINI?DIN*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Mini-DIN-6_0_1"
-        (circle (center -3.302 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start -3.048 -4.064) (mid 0 -5.08) (end 3.048 -4.064)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center -2.032 -2.54) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center -2.032 2.54) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start -1.016 5.08) (mid -4.6228 2.1214) (end -4.318 -2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -0.762 2.54) (end 0.762 0)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -3.81 0)
-            (xy -5.08 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 2.54)
-            (xy -5.08 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.794 2.54)
-            (xy 5.08 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy 3.81 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 -2.54)
-            (xy -3.048 -2.54)
-            (xy -3.048 -4.064)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.318 -2.54)
-            (xy 3.048 -2.54)
-            (xy 3.048 -4.064)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 -3.048)
-            (xy -2.032 -3.556)
-            (xy -5.08 -3.556)
-            (xy -5.08 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 5.08)
-            (xy -1.016 4.064)
-            (xy 1.016 4.064)
-            (xy 1.016 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.032 -3.048)
-            (xy 2.032 -3.556)
-            (xy 5.08 -3.556)
-            (xy 5.08 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.032 -2.54) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.286 2.54) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 3.302 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 4.318 -2.54) (mid 4.6661 2.1322) (end 1.016 5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Mini-DIN-6_1_1"
-        (pin passive line (at 7.62 -2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -7.62 -2.54 0) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -7.62 0 0) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -7.62 2.54 0) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "LED" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "LED diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Light emitting diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LED_0_1"
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy -1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy 1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 1.27 1.27)
-            (xy -1.27 0)
-            (xy 1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.048 -0.762)
-            (xy -4.572 -2.286)
-            (xy -3.81 -2.286)
-            (xy -4.572 -2.286)
-            (xy -4.572 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -0.762)
-            (xy -3.302 -2.286)
-            (xy -2.54 -2.286)
-            (xy -3.302 -2.286)
-            (xy -3.302 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "LED_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "MCU_Microchip_PIC12:PIC12F629-IP" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 1.27 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "PIC12F629-IP" (at 1.27 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 15.24 16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "FLASH-Based 8-Bit CMOS Microcontroller" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "1024W Flash, 64B SRAM, 128B EEPROM, PDIP8" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "DIP*W7.62mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PIC12F629-IP_0_1"
-        (rectangle (start 10.16 -10.16) (end -10.16 10.16)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "PIC12F629-IP_1_1"
-        (pin power_in line (at 0 15.24 270) (length 5.08)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 15.24 -2.54 180) (length 5.08)
-          (name "GP5" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 15.24 0 180) (length 5.08)
-          (name "GP4" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 15.24 2.54 180) (length 5.08)
-          (name "GP3" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -15.24 -2.54 0) (length 5.08)
-          (name "GP2" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -15.24 0 0) (length 5.08)
-          (name "GP1" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -15.24 2.54 0) (length 5.08)
-          (name "GP0" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -15.24 90) (length 5.08)
-          (name "VSS" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Switch:SW_Push" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 1.27 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "SW_Push" (at 0 -1.524 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "switch normally-open pushbutton push-button" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Push button switch, generic, two pins" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SW_Push_0_1"
-        (circle (center -2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.27)
-            (xy 0 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 1.27)
-            (xy -2.54 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 148.59 95.25) (diameter 0) (color 0 0 0 0)
-    (uuid 09bb0961-350e-4183-8eb9-d308dab46157)
-  )
-  (junction (at 168.91 77.47) (diameter 0) (color 0 0 0 0)
-    (uuid 422abb3d-afc6-4428-973d-621e1fbea578)
-  )
-
-  (no_connect (at 109.22 38.1) (uuid 0e7b61d9-359a-478e-b016-676782fe7727))
-  (no_connect (at 124.46 66.04) (uuid 5406bdd6-3a0d-46e2-9547-9d8209ca9597))
-  (no_connect (at 196.85 78.74) (uuid 7cbfe895-9da3-4aba-9833-9ad0badb9ee7))
-  (no_connect (at 196.85 73.66) (uuid 908a7648-65d9-4a39-a85a-85876430c516))
-  (no_connect (at 109.22 33.02) (uuid f3f1e5b5-e080-4632-83bc-7725084d45bd))
-
-  (wire (pts (xy 168.91 77.47) (xy 168.91 90.17))
-    (stroke (width 0) (type default))
-    (uuid 16da4590-b59f-4780-80b7-f0d55effb864)
-  )
-  (wire (pts (xy 109.22 68.58) (xy 124.46 68.58))
-    (stroke (width 0) (type default))
-    (uuid 62eb76a1-0b45-4042-8679-0f17fc33ca05)
-  )
-  (wire (pts (xy 212.09 76.2) (xy 223.52 76.2))
-    (stroke (width 0) (type default))
-    (uuid 81a891e9-eb0c-4380-85eb-fc47832081f0)
-  )
-  (wire (pts (xy 124.46 35.56) (xy 139.7 35.56))
-    (stroke (width 0) (type default))
-    (uuid b5d2d07e-5fc6-46db-bd37-9743b6de56bd)
-  )
-  (wire (pts (xy 148.59 95.25) (xy 148.59 107.95))
-    (stroke (width 0) (type default))
-    (uuid ee0e9e51-968f-4284-accb-36491861f03b)
-  )
-
-  (global_label "kdat" (shape input) (at 194.31 44.45 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 04467744-e37e-4b20-96e4-3bc155707ab9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 201.347 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "VCC" (shape input) (at 124.46 63.5 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 27793db0-c5df-42fc-8773-6224fba3e30a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 117.8462 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "VCC" (shape input) (at 179.07 26.67 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 29242c60-2c8a-49db-a327-f6be8017c0db)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 172.4562 26.67 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "reset500" (shape input) (at 124.46 60.96 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2ce909cc-48d6-41aa-bfa2-bcafe63ca1bd)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 113.1291 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "amigadat" (shape input) (at 124.46 58.42 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3440ba9e-ff39-4a79-a6d1-d3830563510d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 112.706 58.42 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "kclock" (shape input) (at 212.09 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3c82ccdf-b7c0-4424-8af5-4dde024d1cd8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 221.1228 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "kdat" (shape input) (at 212.09 78.74 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3d7eb211-4298-4fc0-95a5-186c000cd7de)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 219.127 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "reset2000" (shape input) (at 163.83 44.45 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4d7bfde5-e8ae-4795-b76a-4c0eb202d33e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 151.2896 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "reset500" (shape input) (at 199.39 109.22 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5060b8e5-e777-4c0c-9c7a-f628214a0a05)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 188.0591 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "led_floppy" (shape input) (at 124.46 73.66 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5b6f736f-4aab-4ec5-95ae-340cc41c4739)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 111.7989 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "amigaclock" (shape input) (at 124.46 33.02 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5b947a1b-ce3f-44b3-926a-9e71226d7b24)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 138.2098 33.02 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "amigaclock" (shape input) (at 124.46 55.88 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7380e873-d903-4846-8f53-81850cd3c71d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.7102 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "VCC" (shape input) (at 109.22 35.56 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8daa71b7-585e-450d-b80b-095c62f92b18)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 102.6062 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "led_power" (shape input) (at 161.29 77.47 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8e5c68c8-3cd1-4221-a9e1-7d9dc1071a24)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 148.9311 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "VCC" (shape input) (at 196.85 76.2 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9cdff016-40b4-437f-b59c-808b937d9a48)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 190.2362 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "VCC" (shape input) (at 194.31 39.37 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a72b76e7-8727-4d0c-ba52-afbcc02daa9a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 200.9238 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "VCC" (shape input) (at 233.68 29.21 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c0de57c1-5922-4158-8f03-81b5b6d8abfa)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 227.0662 29.21 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "led_floppy" (shape input) (at 140.97 95.25 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d58e4d01-9eff-44d2-ab06-2e1eba561033)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.3089 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "amigaclock" (shape input) (at 163.83 41.91 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e4e788ba-6978-428a-b3d8-79cf86a9c5ce)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 150.0802 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "amigadat" (shape input) (at 163.83 39.37 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f41f0a06-2e75-4f76-9c2d-6c3bb0b96d5d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.076 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "kclock" (shape input) (at 194.31 41.91 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f88566e6-81d8-4688-a045-8e46c0e76295)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 203.3428 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "led_power" (shape input) (at 124.46 71.12 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid fdad81d2-01af-4746-a141-a85299db3a47)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 112.1011 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "amigadat" (shape input) (at 124.46 38.1 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid fddac26b-d97c-454d-8a61-5d043d345689)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 136.214 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-
-  (symbol (lib_id "Connector:Mini-DIN-6") (at 116.84 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1a7f3589-d2a5-411b-bf24-b2e8637b725d)
-    (property "Reference" "J11" (at 116.8577 26.3357 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Amiga keyboard" (at 116.8577 28.7599 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "own:Mini-DIN-6_PS2-Keyboard-Socket_Connfly_DS1093-01-PN60" (at 116.84 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" (at 116.84 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 116.84 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C77848" (at 116.84 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "EB-DIOS M06V" (at 116.84 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "4" (uuid 862144b6-9960-44a1-8c5a-eb1969c4dd73))
-    (pin "6" (uuid a18676bc-dd54-41c5-aacf-a246c27d3384))
-    (pin "5" (uuid 29eced11-2ff5-45d0-9a20-0dfb59f15e93))
-    (pin "2" (uuid e7a13c1a-a7d1-4633-b795-00ed9526d581))
-    (pin "3" (uuid 7a429259-d3e7-4c35-8a50-e51cf8f62e9e))
-    (pin "1" (uuid 8fcda8e6-9682-4b6d-b472-f5a6db9518b6))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "J11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 223.52 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1c0e0cde-ea4f-4e95-924e-c8c9b4320e62)
-    (property "Reference" "#PWR01" (at 223.52 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 223.52 80.3331 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 223.52 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 223.52 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 559464b1-936f-478c-93ed-fa305e366eac))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Mini-DIN-6") (at 204.47 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2d8e22d4-0810-40dc-a5a8-f8cadd26cbc8)
-    (property "Reference" "J2" (at 204.4877 66.9757 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "PS/2 keyboard" (at 204.4877 69.3999 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "own:Mini-DIN-6_PS2-Keyboard-Socket_Connfly_DS1093-01-PN60" (at 204.47 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" (at 204.47 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 204.47 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C77848" (at 204.47 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "EB-DIOS M06V" (at 204.47 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "4" (uuid b145bc4e-4d46-43b3-82eb-d2afde03a7ef))
-    (pin "6" (uuid 66a71d00-ed06-4b3e-ac64-a929b9f91e2c))
-    (pin "5" (uuid a84e3d25-5f59-42e3-b8dd-02777193fb64))
-    (pin "2" (uuid 56fa202c-0fe3-46e5-81ff-d79247443995))
-    (pin "3" (uuid 95c32fe2-6a23-40c3-ac72-940cad7c2ccf))
-    (pin "1" (uuid 3e9de66e-be9f-48c5-96eb-8a4e0026386a))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "J2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 144.78 95.25 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 30029e02-e9d2-45d6-84c3-e271ce43cd9b)
-    (property "Reference" "R2" (at 144.78 90.0897 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "470" (at 144.78 92.5139 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 144.78 97.028 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 144.78 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C17710" (at 144.78 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 144.78 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "SMD-0805 470" (at 144.78 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c582bede-6e1a-4834-9050-a5415a696cc4))
-    (pin "2" (uuid 09f246d1-b4ac-486a-a91a-d9e75ddb76cf))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 176.53 77.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 33aac3cf-8c80-4805-90e9-96766bf83d39)
-    (property "Reference" "#PWR04" (at 176.53 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 176.53 81.6031 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 176.53 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 176.53 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 52d8e5af-3e5f-4673-9b93-782dde30af49))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MCU_Microchip_PIC12:PIC12F629-IP") (at 179.07 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 45e7a738-ce88-414a-ac54-fe1ab6f7f3e1)
-    (property "Reference" "U1" (at 181.2641 27.6057 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "PIC12F629" (at 181.2641 30.0299 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 194.31 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf" (at 179.07 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 179.07 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C72124" (at 179.07 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "PIC 12F629-I/P" (at 179.07 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "6" (uuid 9a716f1c-677f-46fe-9c97-1f4d26c1c5a9))
-    (pin "2" (uuid 03decc16-1845-47e4-95a6-a473d351ca1b))
-    (pin "8" (uuid a64dff21-6465-48fc-adc2-cb1979e23bfd))
-    (pin "4" (uuid b165b2bc-ee5a-45df-9d2a-666cef65e4cf))
-    (pin "5" (uuid 251697c0-a699-49f7-b97a-b8f006fb47f3))
-    (pin "7" (uuid e0c9ae5c-2898-43d6-bddf-882c654abb1e))
-    (pin "3" (uuid 537219cb-e154-4979-91e4-9a1315a01561))
-    (pin "1" (uuid 9fdb3c03-c710-4971-b784-3f43ea0336f5))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "U1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 172.72 90.17 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5816a36b-04a0-44e2-baf5-760e0aa47cfe)
-    (property "Reference" "D3" (at 174.3075 83.8667 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Power" (at 174.3075 86.2909 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LED_THT:LED_D3.0mm" (at 172.72 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 172.72 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 172.72 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 172.72 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "" (at 172.72 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f015993b-dc7e-40ba-838a-848a464578d9))
-    (pin "2" (uuid 717ad538-cb8d-4cd2-a9e6-0d518a36e230))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "D3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 203.2 109.22 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 61baa61d-72c5-4603-97f5-20795beb43c5)
-    (property "Reference" "R500" (at 203.2 104.0597 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "470" (at 203.2 106.4839 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 203.2 110.998 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 203.2 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C17710" (at 203.2 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 203.2 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "SMD-0805 470" (at 203.2 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 71b9aa65-00e7-45ec-91d1-b9ec2270e9c1))
-    (pin "2" (uuid 83d44f8d-6502-420a-9946-00e8a65762eb))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "R500") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 139.7 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6bd91624-3b33-41b5-b0ff-01268f1ccd09)
-    (property "Reference" "#PWR08" (at 139.7 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 139.7 39.6931 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 139.7 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 139.7 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f9789610-6c7d-4a8a-b2b2-b69e115576b7))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 109.22 68.58 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 70dc2e73-42b8-423e-92fa-9ae996babbae)
-    (property "Reference" "#PWR03" (at 109.22 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 107.315 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 109.22 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 49d51549-d601-4307-9fb6-104273b15d7e))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 179.07 57.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7a62a85d-f249-47dc-bc35-5693b8fc8248)
-    (property "Reference" "#PWR02" (at 179.07 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 179.07 61.2831 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 179.07 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 179.07 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bc8c9b86-3616-4513-b57b-938343b26f3e))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 176.53 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7c65f5bc-51a0-4056-84da-4cce69d0e7f0)
-    (property "Reference" "#PWR07" (at 176.53 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 176.53 94.3031 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 176.53 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 176.53 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 75c4afb4-2cf0-4f17-be87-dbf35783e019))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 152.4 95.25 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7caa62bb-e2b6-46dc-9560-b8d49c786354)
-    (property "Reference" "D2" (at 153.9875 88.9467 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Drive 0805" (at 153.9875 91.3709 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 152.4 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 152.4 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C2296" (at 152.4 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 152.4 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "LY R976" (at 152.4 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 965990d1-41bc-4a7d-97bf-6bfb35e50206))
-    (pin "2" (uuid 974626a8-8751-49a9-a863-e7df19c77cfa))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "D2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 152.4 107.95 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 80bc3ed0-ba1f-4962-bbbb-e326adf56dd5)
-    (property "Reference" "D4" (at 153.9875 101.6467 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Drive" (at 153.9875 104.0709 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LED_THT:LED_D3.0mm" (at 152.4 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 152.4 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 152.4 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 152.4 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "" (at 152.4 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cf54df29-e7b2-4d43-b6b0-8920426328a8))
-    (pin "2" (uuid a8fd4b08-0727-4a8d-b600-f728ba721c1b))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "D4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 217.17 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8456ecf3-93fb-4520-aa03-f1e0c6fd6883)
-    (property "Reference" "#PWR010" (at 217.17 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 217.17 113.3531 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 217.17 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 217.17 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e254b3fa-feaf-4bc8-ab43-f6917f926a16))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "#PWR010") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 237.49 29.21 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9a0043af-446e-43d8-a4cf-baa961a3ff42)
-    (property "Reference" "C1" (at 237.49 22.9067 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100nF" (at 237.49 25.3309 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 241.3 28.2448 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 237.49 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C49678" (at 237.49 29.21 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "KEM X7R0805 100N" (at 237.49 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 1ac1bb27-0f14-4df5-b2b6-c7cfc3c89edc))
-    (pin "1" (uuid 83839fd1-d8ea-4508-9067-85a085b832a7))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 165.1 77.47 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a3a040bf-460a-4b24-8a31-1459a267e820)
-    (property "Reference" "R1" (at 165.1 72.3097 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "470" (at 165.1 74.7339 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 165.1 79.248 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 165.1 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C17710" (at 165.1 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 165.1 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "SMD-0805 470" (at 165.1 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4dbd3b83-c3ac-43a1-a7c7-d7bbddc85f4c))
-    (pin "2" (uuid c61a7c55-671f-452a-a55e-3b86d351690d))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x08_Socket") (at 129.54 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a4042819-c5ee-48f3-af43-46256fe4c6ad)
-    (property "Reference" "J12" (at 130.2512 63.5579 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "A500 mainboard" (at 130.2512 65.9821 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" (at 129.54 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 129.54 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 129.54 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C2685213" (at 129.54 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "MPE 094-1-008" (at 129.54 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "3" (uuid ccb54b85-9dbc-4e94-aca5-c892562da552))
-    (pin "1" (uuid 3ca4c487-8588-4024-ab68-5da31c4c0956))
-    (pin "5" (uuid 086b65ef-1385-4820-ab3a-8cdcb07c775f))
-    (pin "4" (uuid 88f7a710-035d-4446-9d99-0b2453718e14))
-    (pin "2" (uuid 5859c007-2f2e-4cc1-9508-5e8966e57395))
-    (pin "6" (uuid 64de17d7-3b13-49ea-bb61-4c1802f82178))
-    (pin "8" (uuid d7731b6e-b9af-4b05-b2c7-eb2554d4645f))
-    (pin "7" (uuid e65c0216-cca3-47fc-b6c5-3d68a2f3d9ec))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "J12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 212.09 109.22 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a9fcd1d8-6469-4175-b8b8-ae34be7cc3e5)
-    (property "Reference" "SW500" (at 212.09 102.1547 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 212.09 104.5789 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (at 212.09 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 212.09 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C7501290" (at 212.09 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "W+P 946-142" (at 212.09 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid bce7efa1-89e4-4cb6-ad28-09c32a9bf1d8))
-    (pin "1" (uuid 1df946be-7f58-46fb-91ca-8122c40328f5))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "SW500") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 156.21 107.95 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ac639288-a9bd-43df-b755-1e8d2560cd27)
-    (property "Reference" "#PWR06" (at 156.21 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 156.21 112.0831 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 156.21 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 156.21 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4d95db85-802e-4c4f-9f2e-f1e96eb7202f))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "#PWR06") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 241.3 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b53fc938-310a-4f51-982a-7ab2b000ff4d)
-    (property "Reference" "#PWR09" (at 241.3 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 241.3 33.3431 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 241.3 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 241.3 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 613b7275-5bd9-4e95-8599-656384ce9e75))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "#PWR09") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 172.72 77.47 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f019c543-128f-4e1d-94b2-ca45583d5fc4)
-    (property "Reference" "D1" (at 174.3075 71.1667 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Power 0805" (at 174.3075 73.5909 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 172.72 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 172.72 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C2297" (at 172.72 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 172.72 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reichelt" "LG R971" (at 172.72 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 27de7ab9-90e2-41e5-a686-f019bdd51b5d))
-    (pin "2" (uuid 1c9c2170-360e-421f-81fc-635caeb78a78))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "D1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 156.21 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ffe6d65a-14da-4106-a3b0-cf0ed834b34b)
-    (property "Reference" "#PWR05" (at 156.21 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 156.21 99.3831 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 156.21 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 156.21 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c19cb0b0-4dbe-433f-8afe-aa0bc5f68cd3))
-    (instances
-      (project "Amiga-PCB-MMKeyboard-PIC12F629"
-        (path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0d18a371-b76e-400e-8049-12c2c408a5eb")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x08_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08_Socket"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 7.112)
+					(mid -0.5058 7.62)
+					(end 0 8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -10.668)
+					(mid -0.5058 -10.16)
+					(end 0 -9.652)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Mini-DIN-6"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Mini-DIN-6"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "6-pin Mini-DIN connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Mini-DIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MINI?DIN*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mini-DIN-6_0_1"
+				(polyline
+					(pts
+						(xy -4.318 -2.54) (xy -3.048 -2.54) (xy -3.048 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -2.032 -3.556) (xy -5.08 -3.556) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 5.08) (xy -1.016 4.064) (xy 1.016 4.064) (xy 1.016 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 3.048 -4.064)
+					(mid 0 -5.08)
+					(end -3.048 -4.064)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 5.08)
+					(mid 4.6646 2.1356)
+					(end 4.318 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.318 -2.54)
+					(mid -4.6241 2.1181)
+					(end -1.016 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -3.048) (xy 2.032 -3.556) (xy 5.08 -3.556) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.286 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -2.54) (xy 3.048 -2.54) (xy 3.048 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Mini-DIN-6_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MCU_Microchip_PIC12:PIC12F629-IP"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PIC12F629-IP"
+				(at 1.27 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+				(at 15.24 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1024W Flash, 64B SRAM, 128B EEPROM, PDIP8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "FLASH-Based 8-Bit CMOS Microcontroller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PIC12F629-IP_0_1"
+				(rectangle
+					(start 10.16 -10.16)
+					(end -10.16 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PIC12F629-IP_1_1"
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 148.59 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09bb0961-350e-4183-8eb9-d308dab46157")
+	)
+	(junction
+		(at 168.91 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "422abb3d-afc6-4428-973d-621e1fbea578")
+	)
+	(no_connect
+		(at 109.22 38.1)
+		(uuid "0e7b61d9-359a-478e-b016-676782fe7727")
+	)
+	(no_connect
+		(at 124.46 66.04)
+		(uuid "5406bdd6-3a0d-46e2-9547-9d8209ca9597")
+	)
+	(no_connect
+		(at 196.85 78.74)
+		(uuid "7cbfe895-9da3-4aba-9833-9ad0badb9ee7")
+	)
+	(no_connect
+		(at 196.85 73.66)
+		(uuid "908a7648-65d9-4a39-a85a-85876430c516")
+	)
+	(no_connect
+		(at 109.22 33.02)
+		(uuid "f3f1e5b5-e080-4632-83bc-7725084d45bd")
+	)
+	(wire
+		(pts
+			(xy 168.91 77.47) (xy 168.91 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16da4590-b59f-4780-80b7-f0d55effb864")
+	)
+	(wire
+		(pts
+			(xy 109.22 68.58) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62eb76a1-0b45-4042-8679-0f17fc33ca05")
+	)
+	(wire
+		(pts
+			(xy 212.09 76.2) (xy 223.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a891e9-eb0c-4380-85eb-fc47832081f0")
+	)
+	(wire
+		(pts
+			(xy 124.46 35.56) (xy 139.7 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d2d07e-5fc6-46db-bd37-9743b6de56bd")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0e9e51-968f-4284-accb-36491861f03b")
+	)
+	(global_label "kdat"
+		(shape input)
+		(at 194.31 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04467744-e37e-4b20-96e4-3bc155707ab9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.347 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 124.46 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27793db0-c5df-42fc-8773-6224fba3e30a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.8462 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 179.07 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29242c60-2c8a-49db-a327-f6be8017c0db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.4562 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "reset500"
+		(shape input)
+		(at 124.46 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ce909cc-48d6-41aa-bfa2-bcafe63ca1bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.1291 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "amigadat"
+		(shape input)
+		(at 124.46 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3440ba9e-ff39-4a79-a6d1-d3830563510d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.706 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "kclock"
+		(shape input)
+		(at 212.09 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c82ccdf-b7c0-4424-8af5-4dde024d1cd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.1228 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "kdat"
+		(shape input)
+		(at 212.09 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d7eb211-4298-4fc0-95a5-186c000cd7de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.127 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "reset2000"
+		(shape input)
+		(at 163.83 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d7bfde5-e8ae-4795-b76a-4c0eb202d33e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.2896 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "reset500"
+		(shape input)
+		(at 199.39 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5060b8e5-e777-4c0c-9c7a-f628214a0a05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.0591 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led_floppy"
+		(shape input)
+		(at 124.46 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b6f736f-4aab-4ec5-95ae-340cc41c4739")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.7989 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "amigaclock"
+		(shape input)
+		(at 124.46 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b947a1b-ce3f-44b3-926a-9e71226d7b24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.2098 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "amigaclock"
+		(shape input)
+		(at 124.46 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7380e873-d903-4846-8f53-81850cd3c71d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.7102 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 109.22 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8daa71b7-585e-450d-b80b-095c62f92b18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.6062 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led_power"
+		(shape input)
+		(at 161.29 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e5c68c8-3cd1-4221-a9e1-7d9dc1071a24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9311 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 196.85 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cdff016-40b4-437f-b59c-808b937d9a48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.2362 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 194.31 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a72b76e7-8727-4d0c-ba52-afbcc02daa9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.9238 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 233.68 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0de57c1-5922-4158-8f03-81b5b6d8abfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.0662 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led_floppy"
+		(shape input)
+		(at 140.97 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d58e4d01-9eff-44d2-ab06-2e1eba561033")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.3089 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "amigaclock"
+		(shape input)
+		(at 163.83 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4e788ba-6978-428a-b3d8-79cf86a9c5ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.0802 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "amigadat"
+		(shape input)
+		(at 163.83 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f41f0a06-2e75-4f76-9c2d-6c3bb0b96d5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.076 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "kclock"
+		(shape input)
+		(at 194.31 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f88566e6-81d8-4688-a045-8e46c0e76295")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.3428 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led_power"
+		(shape input)
+		(at 124.46 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdad81d2-01af-4746-a141-a85299db3a47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.1011 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "amigadat"
+		(shape input)
+		(at 124.46 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fddac26b-d97c-454d-8a61-5d043d345689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.214 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Mini-DIN-6")
+		(at 116.84 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a7f3589-d2a5-411b-bf24-b2e8637b725d")
+		(property "Reference" "J11"
+			(at 116.8577 26.3357 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Amiga keyboard"
+			(at 116.8577 28.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "own:Mini-DIN-6_PS2-Keyboard-Socket_Connfly_DS1093-01-PN60"
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf"
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77848"
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "EB-DIOS M06V"
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "862144b6-9960-44a1-8c5a-eb1969c4dd73")
+		)
+		(pin "6"
+			(uuid "a18676bc-dd54-41c5-aacf-a246c27d3384")
+		)
+		(pin "5"
+			(uuid "29eced11-2ff5-45d0-9a20-0dfb59f15e93")
+		)
+		(pin "2"
+			(uuid "e7a13c1a-a7d1-4633-b795-00ed9526d581")
+		)
+		(pin "3"
+			(uuid "7a429259-d3e7-4c35-8a50-e51cf8f62e9e")
+		)
+		(pin "1"
+			(uuid "8fcda8e6-9682-4b6d-b472-f5a6db9518b6")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c0e0cde-ea4f-4e95-924e-c8c9b4320e62")
+		(property "Reference" "#PWR01"
+			(at 223.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 80.3331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "559464b1-936f-478c-93ed-fa305e366eac")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Mini-DIN-6")
+		(at 204.47 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d8e22d4-0810-40dc-a5a8-f8cadd26cbc8")
+		(property "Reference" "J2"
+			(at 204.4877 66.9757 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PS/2 keyboard"
+			(at 204.4877 69.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "own:Mini-DIN-6_PS2-Keyboard-Socket_Connfly_DS1093-01-PN60"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77848"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "EB-DIOS M06V"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b145bc4e-4d46-43b3-82eb-d2afde03a7ef")
+		)
+		(pin "6"
+			(uuid "66a71d00-ed06-4b3e-ac64-a929b9f91e2c")
+		)
+		(pin "5"
+			(uuid "a84e3d25-5f59-42e3-b8dd-02777193fb64")
+		)
+		(pin "2"
+			(uuid "56fa202c-0fe3-46e5-81ff-d79247443995")
+		)
+		(pin "3"
+			(uuid "95c32fe2-6a23-40c3-ac72-940cad7c2ccf")
+		)
+		(pin "1"
+			(uuid "3e9de66e-be9f-48c5-96eb-8a4e0026386a")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30029e02-e9d2-45d6-84c3-e271ce43cd9b")
+		(property "Reference" "R2"
+			(at 144.78 90.0897 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 144.78 92.5139 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 144.78 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C17710"
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "SMD-0805 470"
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c582bede-6e1a-4834-9050-a5415a696cc4")
+		)
+		(pin "2"
+			(uuid "09f246d1-b4ac-486a-a91a-d9e75ddb76cf")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33aac3cf-8c80-4805-90e9-96766bf83d39")
+		(property "Reference" "#PWR04"
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 81.6031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52d8e5af-3e5f-4673-9b93-782dde30af49")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Microchip_PIC12:PIC12F629-IP")
+		(at 179.07 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45e7a738-ce88-414a-ac54-fe1ab6f7f3e1")
+		(property "Reference" "U1"
+			(at 181.2641 27.6057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PIC12F629"
+			(at 181.2641 30.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 194.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf"
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72124"
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PIC 12F629-I/P"
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9a716f1c-677f-46fe-9c97-1f4d26c1c5a9")
+		)
+		(pin "2"
+			(uuid "03decc16-1845-47e4-95a6-a473d351ca1b")
+		)
+		(pin "8"
+			(uuid "a64dff21-6465-48fc-adc2-cb1979e23bfd")
+		)
+		(pin "4"
+			(uuid "b165b2bc-ee5a-45df-9d2a-666cef65e4cf")
+		)
+		(pin "5"
+			(uuid "251697c0-a699-49f7-b97a-b8f006fb47f3")
+		)
+		(pin "7"
+			(uuid "e0c9ae5c-2898-43d6-bddf-882c654abb1e")
+		)
+		(pin "3"
+			(uuid "537219cb-e154-4979-91e4-9a1315a01561")
+		)
+		(pin "1"
+			(uuid "9fdb3c03-c710-4971-b784-3f43ea0336f5")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 172.72 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5816a36b-04a0-44e2-baf5-760e0aa47cfe")
+		(property "Reference" "D3"
+			(at 174.3075 83.8667 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Power"
+			(at 174.3075 86.2909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" ""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f015993b-dc7e-40ba-838a-848a464578d9")
+		)
+		(pin "2"
+			(uuid "717ad538-cb8d-4cd2-a9e6-0d518a36e230")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61baa61d-72c5-4603-97f5-20795beb43c5")
+		(property "Reference" "R500"
+			(at 203.2 104.0597 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 203.2 106.4839 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 203.2 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C17710"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "SMD-0805 470"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71b9aa65-00e7-45ec-91d1-b9ec2270e9c1")
+		)
+		(pin "2"
+			(uuid "83d44f8d-6502-420a-9946-00e8a65762eb")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "R500")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bd91624-3b33-41b5-b0ff-01268f1ccd09")
+		(property "Reference" "#PWR08"
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 39.6931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9789610-6c7d-4a8a-b2b2-b69e115576b7")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70dc2e73-42b8-423e-92fa-9ae996babbae")
+		(property "Reference" "#PWR03"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.315 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49d51549-d601-4307-9fb6-104273b15d7e")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a62a85d-f249-47dc-bc35-5693b8fc8248")
+		(property "Reference" "#PWR02"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 61.2831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc8c9b86-3616-4513-b57b-938343b26f3e")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c65f5bc-51a0-4056-84da-4cce69d0e7f0")
+		(property "Reference" "#PWR07"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 94.3031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75c4afb4-2cf0-4f17-be87-dbf35783e019")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 152.4 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7caa62bb-e2b6-46dc-9560-b8d49c786354")
+		(property "Reference" "D2"
+			(at 153.9875 88.9467 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Drive 0805"
+			(at 153.9875 91.3709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C2296"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "LY R976"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "965990d1-41bc-4a7d-97bf-6bfb35e50206")
+		)
+		(pin "2"
+			(uuid "974626a8-8751-49a9-a863-e7df19c77cfa")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 152.4 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80bc3ed0-ba1f-4962-bbbb-e326adf56dd5")
+		(property "Reference" "D4"
+			(at 153.9875 101.6467 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Drive"
+			(at 153.9875 104.0709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" ""
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf54df29-e7b2-4d43-b6b0-8920426328a8")
+		)
+		(pin "2"
+			(uuid "a8fd4b08-0727-4a8d-b600-f728ba721c1b")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8456ecf3-93fb-4520-aa03-f1e0c6fd6883")
+		(property "Reference" "#PWR010"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 113.3531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e254b3fa-feaf-4bc8-ab43-f6917f926a16")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a0043af-446e-43d8-a4cf-baa961a3ff42")
+		(property "Reference" "C1"
+			(at 237.49 22.9067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 237.49 25.3309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 241.3 28.2448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C49678"
+			(at 237.49 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "KEM X7R0805 100N"
+			(at 237.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ac1bb27-0f14-4df5-b2b6-c7cfc3c89edc")
+		)
+		(pin "1"
+			(uuid "83839fd1-d8ea-4508-9067-85a085b832a7")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3a040bf-460a-4b24-8a31-1459a267e820")
+		(property "Reference" "R1"
+			(at 165.1 72.3097 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 165.1 74.7339 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 165.1 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C17710"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "SMD-0805 470"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dbd3b83-c3ac-43a1-a7c7-d7bbddc85f4c")
+		)
+		(pin "2"
+			(uuid "c61a7c55-671f-452a-a55e-3b86d351690d")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 129.54 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4042819-c5ee-48f3-af43-46256fe4c6ad")
+		(property "Reference" "J12"
+			(at 130.2512 63.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A500 mainboard"
+			(at 130.2512 65.9821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2685213"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "MPE 094-1-008"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ccb54b85-9dbc-4e94-aca5-c892562da552")
+		)
+		(pin "1"
+			(uuid "3ca4c487-8588-4024-ab68-5da31c4c0956")
+		)
+		(pin "5"
+			(uuid "086b65ef-1385-4820-ab3a-8cdcb07c775f")
+		)
+		(pin "4"
+			(uuid "88f7a710-035d-4446-9d99-0b2453718e14")
+		)
+		(pin "2"
+			(uuid "5859c007-2f2e-4cc1-9508-5e8966e57395")
+		)
+		(pin "6"
+			(uuid "64de17d7-3b13-49ea-bb61-4c1802f82178")
+		)
+		(pin "8"
+			(uuid "d7731b6e-b9af-4b05-b2c7-eb2554d4645f")
+		)
+		(pin "7"
+			(uuid "e65c0216-cca3-47fc-b6c5-3d68a2f3d9ec")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 212.09 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9fcd1d8-6469-4175-b8b8-ae34be7cc3e5")
+		(property "Reference" "SW500"
+			(at 212.09 102.1547 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 212.09 104.5789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 212.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7501290"
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "W+P 946-142"
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bce7efa1-89e4-4cb6-ad28-09c32a9bf1d8")
+		)
+		(pin "1"
+			(uuid "1df946be-7f58-46fb-91ca-8122c40328f5")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "SW500")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac639288-a9bd-43df-b755-1e8d2560cd27")
+		(property "Reference" "#PWR06"
+			(at 156.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 112.0831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d95db85-802e-4c4f-9f2e-f1e96eb7202f")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b53fc938-310a-4f51-982a-7ab2b000ff4d")
+		(property "Reference" "#PWR09"
+			(at 241.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 33.3431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "613b7275-5bd9-4e95-8599-656384ce9e75")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 172.72 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f019c543-128f-4e1d-94b2-ca45583d5fc4")
+		(property "Reference" "D1"
+			(at 174.3075 71.1667 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Power 0805"
+			(at 174.3075 73.5909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C2297"
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "LG R971"
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27de7ab9-90e2-41e5-a686-f019bdd51b5d")
+		)
+		(pin "2"
+			(uuid "1c9c2170-360e-421f-81fc-635caeb78a78")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffe6d65a-14da-4106-a3b0-cf0ed834b34b")
+		(property "Reference" "#PWR05"
+			(at 156.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 99.3831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c19cb0b0-4dbe-433f-8afe-aa0bc5f68cd3")
+		)
+		(instances
+			(project "Amiga-PCB-MMKeyboard-PIC12F629"
+				(path "/0d18a371-b76e-400e-8049-12c2c408a5eb"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
