@@ -2618,15 +2618,15 @@
 		(fields_autoplaced yes)
 		(uuid "30029e02-e9d2-45d6-84c3-e271ce43cd9b")
 		(property "Reference" "R2"
-			(at 144.78 90.0897 90)
+			(at 144.78 90.0895 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 144.78 92.5139 90)
+		(property "Value" "330"
+			(at 144.78 92.5138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2659,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C17710"
+		(property "JLCPCB" "C17630"
 			(at 144.78 95.25 0)
 			(effects
 				(font
@@ -2677,7 +2677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reichelt" "SMD-0805 470"
+		(property "Reichelt" "SMD-0805 330"
 			(at 144.78 95.25 0)
 			(effects
 				(font
@@ -2992,7 +2992,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "1k"
 			(at 203.2 106.4839 90)
 			(effects
 				(font
@@ -3026,7 +3026,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C17710"
+		(property "JLCPCB" "C17513"
 			(at 203.2 109.22 0)
 			(effects
 				(font
@@ -3044,7 +3044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reichelt" "SMD-0805 470"
+		(property "Reichelt" "SMD-0805 1,00K"
 			(at 203.2 109.22 0)
 			(effects
 				(font
@@ -3679,15 +3679,15 @@
 		(fields_autoplaced yes)
 		(uuid "a3a040bf-460a-4b24-8a31-1459a267e820")
 		(property "Reference" "R1"
-			(at 165.1 72.3097 90)
+			(at 165.1 72.3095 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 165.1 74.7339 90)
+		(property "Value" "1k"
+			(at 165.1 74.7338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3720,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C17710"
+		(property "JLCPCB" "C17513"
 			(at 165.1 77.47 0)
 			(effects
 				(font
@@ -3738,7 +3738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reichelt" "SMD-0805 470"
+		(property "Reichelt" "SMD-0805 1,00K"
 			(at 165.1 77.47 0)
 			(effects
 				(font
